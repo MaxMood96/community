@@ -1968,9 +1968,6 @@ sigs:
   - name: usage-metrics-collector
     owners:
     - https://raw.githubusercontent.com/kubernetes-sigs/usage-metrics-collector/main/OWNERS
-  - name: zpages
-    owners:
-    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/component-base/zpages/OWNERS
 - dir: sig-k8s-infra
   name: K8s Infra
   mission_statement: >
@@ -2878,20 +2875,10 @@ sigs:
     slack: sig-scheduling
     mailing_list: https://groups.google.com/forum/#!forum/kubernetes-sig-scheduling
     teams:
-    - name: sig-scheduling-api-reviews
-      description: API Changes and Reviews
-    - name: sig-scheduling-bugs
-      description: Bug Triage and Troubleshooting
-    - name: sig-scheduling-feature-requests
-      description: Feature Requests
+    - name: sig-scheduling-leads
+      description: SIG Scheduling leads
     - name: sig-scheduling-misc
       description: General Discussion
-    - name: sig-scheduling-pr-reviews
-      description: PR Reviews
-    - name: sig-scheduling-proposals
-      description: Design Proposals
-    - name: sig-scheduling-test-failures
-      description: Test Failures and Triage
     liaison:
       github: BenTheElder
       name: Benjamin Elder
@@ -3577,7 +3564,7 @@ workinggroups:
     recordings_url: https://www.youtube.com/playlist?list=PL69nYSiGNLP336DulLgPdlWJ_gzRz1iL5
   contact:
     slack: wg-data-protection
-    mailing_list: https://groups.google.com/forum/#!forum/kubernetes-data-protection
+    mailing_list: https://groups.google.com/a/kubernetes.io/g/wg-data-protection
     liaison:
       github: pohly
       name: Patrick Ohly
